@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "email": "vanik.matshkalyan@gmail.com",
+    "password": "12345678",
+    "firstName": "Vanik",
+    "lastName": "Matshkalyan",
+    "phoneNumber": "091497649",
+    "newDeals": true,
+    "newsLetter": true,
+    "newRestaurants": true,
+    "orderStatuses": true,
+    "specialOffers": true,
+    "passwordChanges": true,
+    "picture":"/avatar1.png"
+  },
+  {
+    "id": 2,
+    "email": "poxos.poxosyan@gmail.com",
+    "password": "12345678",
+    "firstName": "Poxos",
+    "lastName": "Poxosyan",
+    "phoneNumber": "099999999",
+    "newDeals": true,
+    "newsLetter": true,
+    "newRestaurants": true,
+    "orderStatuses": true,
+    "specialOffers": true,
+    "passwordChanges": true,
+    "picture":"/avatar2.png"
+  }
+]

@@ -1,0 +1,416 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 30px;
+  padding: 0 5.5%;
+}
+
+.col_6 {
+  width: 50%;
+}
+
+.col4 {
+  width: 31%;
+}
+
+.container .col_6_2 .image_area {
+  background: #f3f4ff;
+}
+
+.container .col_6_3 .image_area {
+  background: #fff3ed;
+}
+
+.container .col_6 .image_area {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-left: 9px;
+
+  margin-bottom: 40px;
+  border-radius: 16px;
+}
+
+.container .col_6 .left {
+  margin-left: 50px;
+  margin-right: 9px;
+}
+
+.container .col_6 .image_area img {
+  margin: 0 auto;
+}
+
+.container .col_6 .image_area .image_items_area {
+  margin: 0 auto;
+  margin-top: 14px;
+}
+
+.container .col_6 .col4 {
+  width: 31%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  border: 1px solid #edeef2;
+  border-radius: 10px;
+}
+.container .col_6 .col4.active {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.container .col_6 .col4:hover {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.container .col_6 .sub_container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 81%;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.container .col_6 .sub_container.responsive {
+  display: none;
+}
+
+.container .col_6 .sub_container p {
+  letter-spacing: 0.1px;
+
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.container .col_6 .title {
+  padding-bottom: 10px;
+
+  letter-spacing: 0.1px;
+
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.container .col_6 .desc {
+  padding-bottom: 50px;
+
+  letter-spacing: 0.1px;
+
+  color: #4e60ff;
+
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 56px;
+}
+
+.container .col_6 .desc2 {
+  letter-spacing: 0.1px;
+
+  color: #83859c;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.container .head-title {
+  margin-top: 50px;
+  margin-left: 5%;
+
+  text-align: left;
+  letter-spacing: 0.1px;
+
+  color: #2b2b43;
+
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.container .col_4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+section .col_4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section .col_4 .img_area {
+  position: relative;
+}
+
+section .col_4 .img_area .feautered_area {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 7px;
+
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: #4e60ff;
+
+  font-weight: 600;
+}
+
+section .name_area {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 14px;
+  padding-left: 10px;
+}
+
+section .name_area i {
+  margin-right: 20px;
+
+  color: #4e60ff;
+}
+
+section .name_area p {
+  text-align: left;
+  letter-spacing: 0.1px;
+
+  color: #2b2b43;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+section .icon {
+  position: relative;
+}
+
+section .icon p {
+  position: absolute;
+  bottom: 16px;
+  left: 10px;
+
+  height: 20px;
+  padding-right: 4px;
+  padding-left: 4px;
+
+  color: white;
+  border-radius: 8px;
+  background: #4e60ff;
+
+  font-weight: bold;
+}
+
+section .minute_area {
+  display: flex;
+
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+section .minute_area span {
+  display: inline-block;
+
+  width: 5px;
+  height: 5px;
+  margin-bottom: 3px;
+  margin-left: 8px;
+
+  border-radius: 50%;
+  background: #4e60ff;
+}
+
+section .minute_area .desc {
+  margin-left: -29px;
+}
+
+section .minute_area .title {
+  margin-right: 40px;
+}
+
+section .minute_area .title i {
+  margin-right: 5px;
+
+  color: grey;
+}
+
+section .img_area {
+  padding-bottom: 20px;
+
+  border: 1px solid #edeef2;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+section .img_area img {
+  border-radius: 16px;
+}
+
+section .img_area .checked_foods {
+  display: flex;
+
+  width: 27%;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+
+  border: 1px solid #edeef2;
+  border-radius: 10px;
+  background: #edeef2;
+
+  font-weight: 700;
+}
+
+section .img_area .checked_foods p {
+  padding-left: 10px;
+}
+
+section .img_area .burger_pizza_area {
+  display: flex;
+}
+
+section .img_area .burger_pizza_area .pizza_area {
+  margin-left: 20px;
+}
+
+section .col_4_2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.iconsContainer {
+  display: flex;
+  margin: 0 auto;
+  width: 97.5%;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  width: 43%;
+  justify-content: space-between;
+}
+
+.icons .col4 {
+  width: 30%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  border: 1px solid #edeef2;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 70px;
+}
+
+.icons .col4.active {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.productsList .img_area {
+  width: 30%;
+  position: relative;
+  margin-right: 35px;
+}
+
+.products .img_area {
+  width: 30%;
+  position: relative;
+}
+
+.products .img_area > img,
+.productsList .img_area > img {
+  width: 100%;
+}
+
+.products .checked_foods,
+.productsList .checked_foods {
+  display: flex;
+}
+
+.products .checked,
+.productsList .checked {
+  display: flex;
+}
+
+.products .feautered_area,
+.productsList .feautered_area {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 7px;
+
+  color: white;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: #4e60ff;
+
+  font-weight: 600;
+}
+
+.products .addToBasket,
+.productsList .addToBasket {
+  position: relative;
+  cursor: pointer;
+}
+
+.products .add_item,
+.productsList .add_item {
+  position: absolute;
+  bottom: 16px;
+  left: 10px;
+
+  height: 20px;
+  padding-right: 4px;
+  padding-left: 4px;
+
+  color: white;
+  border-radius: 8px;
+  background: #4e60ff;
+
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.nerby {
+  margin-left: 86px;
+  padding-bottom: -12px;
+  padding-top: 60px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+}
+
+.mapArea {
+  margin-top: 5%;
+}

@@ -1,0 +1,392 @@
+.setting_account_section {
+  display: flex;
+
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-family: Nunito;
+}
+
+.setting_account_section .wrapper_area {
+  display: flex;
+
+  margin-bottom: 24px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+
+  border: 1px solid #edeef2;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.setting_account_section .wrapper_area.active {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.setting_account_section .wrapper_area:hover {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.setting_account_section .settings {
+  margin-bottom: 20px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+.settings_section {
+  width: 28%;
+}
+
+.wrapper_area .img_area {
+  padding-left: 5px;
+}
+
+.wrapper_area .img_area i {
+  padding: 5px;
+  background: #efe9e9;
+  border-radius: 10px;
+}
+
+.wrapper_area .img_area .card {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background: #efe9e9;
+  border-radius: 10px;
+}
+
+.wrapper_area .text_area {
+  margin-left: 40px;
+}
+
+.wrapper_area .text_area .title {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.10000000149011612px;
+  color: #2b2b43;
+}
+
+.wrapper_area .text_area .desc {
+  font-family: Nunito;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.20000000298023224px;
+  color: #545563;
+}
+
+.account_section {
+  width: 60%;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  padding-top: 6px;
+  padding-bottom: 11px;
+  padding-left: 12px;
+
+  border: 1px solid #edeef2;
+  border-radius: 16px;
+}
+
+.account_section .img_area {
+  display: flex;
+  align-items: center;
+
+  width: 60%;
+  margin-top: 20px;
+}
+
+.account_section .img_area img {
+  border-radius: 10px;
+}
+
+.account_section .img_area .title {
+  margin-right: 9%;
+  margin-left: 9%;
+  padding: 10px;
+
+  color: #a1a2a7;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.account_section .img_area .desc {
+  padding: 10px;
+
+  color: #a1a2a7;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.account_section .img_area .desc[disabled] {
+  cursor: not-allowed;
+}
+
+.account_section .input_area {
+  display: flex;
+
+  margin-top: 30px;
+}
+
+.account_section .img_area button:hover {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.account_section .img_area button.active {
+  color: #4e60ff;
+  border: 1px solid #4e60ff;
+}
+
+.account_section .input_area .inputs {
+  width: 50%;
+  margin-right: 36px;
+}
+
+.account_section .input_area .inputs p {
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.account_section .input_area .inputs input {
+  width: 100%;
+  padding: 5px;
+
+  border-radius: 8px;
+  height: 25px;
+}
+
+.account_section .input_area .inputs .input_title {
+  margin-bottom: 30px;
+}
+
+.account_section .email {
+  margin-top: 30px;
+
+  letter-spacing: 0.1px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.account_section .checkbox_area {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+.account_section .checkbox_area #cb1 {
+  accent-color: #4e60ff;
+}
+
+.account_section .checkbox_area input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.account_section .checkbox_area .left_checkbox {
+  margin-right: 28%;
+}
+
+.account_section .checkbox_area .left_checkbox div,
+.account_section .checkbox_area .right_checkbox div {
+  display: flex;
+}
+
+.account_section .checkbox_area label {
+  letter-spacing: 0.1px;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.account_section .checkbox_area div {
+  margin-bottom: 18px;
+}
+
+.account_section .first_button {
+  margin-right: 40%;
+  padding: 10px;
+
+  letter-spacing: 0.3px;
+
+  color: red;
+  border: 1px solid;
+  border-radius: 10px;
+  background: white;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.account_section .first_button.logout {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.account_section .second_button {
+  margin-right: 4%;
+  padding: 10px;
+
+  letter-spacing: 0.3px;
+
+  color: #83859c;
+  border: 1px solid;
+  border-radius: 10px;
+  background: white;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.account_section .third_button {
+  padding: 10px;
+
+  letter-spacing: 0.3px;
+
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  background: #4e60ff;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.account_section .payment_title {
+  font-size: 25px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.pay input {
+  padding: 0.6em 0.25em 0;
+  font-size: 1.5em;
+  height: 2.1em;
+  margin-bottom: 0.25em;
+  border: none;
+  border-bottom: 1px solid peachpuff;
+  font-family: Raleway, Helvetica, sans-serif;
+  font-weight: 100;
+  border-radius: 0.25em;
+}
+.pay label span {
+  font-size: 0.75em;
+}
+.pay form {
+  width: 100%;
+  max-width: 30em;
+  border: 1px solid 000000;
+  padding: 0.75em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff0f0;
+  filter: drop-shadow(-0.25em 0.25em 0.25em rgba(0, 0, 125, 0.25));
+  border-radius: 0.375em;
+  margin-left: 17%;
+  margin-top: 10%;
+}
+.pay form label {
+  position: relative;
+}
+.pay form label > span {
+  position: absolute;
+  top: 0.25em;
+  left: 0.25em;
+}
+.pay .cdnum span {
+  color: #555;
+  font-size: 0.8em;
+}
+.pay .cvv {
+  width: 25%;
+}
+.pay label,
+.pay input {
+  width: 100%;
+}
+.pay .exp {
+  width: calc(75% - 0.75em);
+}
+.pay button {
+  width: 100%;
+  height: 2.75em;
+  font-size: 1em;
+  font-family: Raleway, Helvetica, sans-serif;
+  background-color: #4e60ff;
+  border: none;
+  color: #fff;
+  border-radius: 0.25em;
+  margin: 0.25em 0 0 0;
+  padding: 0.5em;
+}
+.pay button:hover,
+.pay button:focus {
+  background-color: #4e60ff;
+}
+.pay ::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+.pay ::-ms-input-placeholder {
+  color: #ccc;
+}
+.pay input:focus {
+  outline-color: #4e60ff;
+}
+
+.image img {
+  width: 79%;
+  margin-top: 40px;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.password .password_title {
+  font-size: 35px;
+  color: black;
+  font-weight: bolder;
+}
+
+.password .password_desc {
+  font-size: 60px;
+  color: red;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.password .password_desc:hover {
+  transform: scale(1.5);
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}

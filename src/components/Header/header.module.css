@@ -1,0 +1,199 @@
+header {
+  width: 100%;
+
+  border-bottom: 1px solid #edeef2;
+  position: relative;
+  font-family: Nunito;
+}
+
+header .about .deals {
+  padding-right: 14px;
+
+  border-right: 1px solid #edeef2;
+}
+
+header .about a:hover {
+  color: #4e60ff;
+}
+
+header .delivery {
+  display: flex;
+
+  margin-left: 6%;
+}
+
+header .about li i {
+  padding: 11px;
+
+  color: #4e60ff;
+  border: 1px solid #f3f4ff;
+  border-radius: 32px;
+  background-color: #f3f4ff;
+}
+
+header .about li a {
+  color: #2b2b43;
+
+  font-weight: 600;
+}
+
+header .delivery .title {
+  color: #2b2b43;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header .delivery .desc {
+  color: #4e60ff;
+
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header .delivery .input_area input {
+  height: 35px;
+
+  border: 1px solid #edeef2;
+  border-radius: 12px;
+  background: #edeef2;
+}
+
+header .delivery .input_area {
+  position: relative;
+
+  margin-top: 7%;
+  margin-left: 38%;
+}
+
+header .delivery .input_area i {
+  position: absolute;
+  right: 6px;
+  bottom: 20px;
+  color: #83859C;
+}
+
+header .about li .seen_area {
+  position: relative;
+}
+
+header .about li .seen_area .shop_card_button {
+  cursor: pointer;
+  transition: color 500ms ease;
+  padding: 10px;
+  background: #d7d6d6;
+  border-radius: 30%;
+}
+
+header .shop_cart {
+  position: absolute;
+  top: 30px;
+  right: 0%;
+  width: 230px;
+  border-radius: 10px;
+  background: #f3f4ff;
+  box-shadow: -14px 13px 26px 4px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: -14px 13px 26px 4px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -14px 13px 26px 4px rgba(0, 0, 0, 0.65);
+  padding: 10px 5px;
+}
+
+header .about li .seen_area .shop_card_button:hover,
+header .about li .seen_area .shop_card_button.active {
+  color: #4e60ff;
+}
+
+header .about li .seen_area p:not(.emptyBasket) {
+  position: absolute;
+  bottom: 22px;
+  left: 29px;
+
+  padding-right: 5px;
+  padding-left: 5px;
+
+  color: white;
+  border-radius: 8px;
+  background: #4e60ff;
+
+  font-weight: bold;
+}
+
+header .emptyBasket {
+  padding-right: 5px;
+  padding-left: 5px;
+
+  color: white;
+  border-radius: 8px;
+  background: #4e60ff;
+
+  font-weight: bold;
+}
+
+header .link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  list-style-type: none;
+  padding-inline-end: 20px;
+  padding-inline-start: 0;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+header ul .about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px 56px 5px 0;
+}
+
+header .about li {
+  margin-left: 13px;
+}
+
+header .about li img {
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+header .added_foods {
+  width: 30%;
+  justify-content: flex-start;
+  display: flex;
+}
+
+header .name_style_area {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .name_style_area .disCountBtn {
+  color: white;
+  background: #4e60ff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+header .style {
+  text-align: center;
+}
+
+header .desc2 {
+  width: 70px;
+}

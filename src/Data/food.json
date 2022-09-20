@@ -1,0 +1,34 @@
+
+
+[
+  {
+    "id": 1,
+    "name": "Pizza",
+    "path": "images/pizza piece.png"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "path": "images/burger piece.png"
+  },
+  {
+    "id": 3,
+    "name": "BBQ",
+    "path": "images/meat piece.png"
+  },
+  {
+    "id": 4,
+    "name": "Sushi",
+    "path": "images/sushi piece.png"
+  },
+  {
+    "id": 5,
+    "name": "Vegan",
+    "path": "images/broccoli piece.png"
+  },
+  {
+    "id": 6,
+    "name": "Desserts",
+    "path": "images/cake piece.png"
+  }
+]

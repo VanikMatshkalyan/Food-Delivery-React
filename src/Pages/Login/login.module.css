@@ -1,0 +1,620 @@
+.section_wrapper {
+  display: flex;
+
+  width: 100%;
+  height: 900px;
+  margin: 0 auto;
+}
+
+.section_wrapper .login_section {
+  margin: 0 auto;
+}
+
+.section_wrapper .login_section p.title,
+.section_wrapper .login_section p.desc {
+  font-size: 24px;
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.section_wrapper .login_section .title {
+  color: #2b2b43;
+}
+
+.section_wrapper .login_section .desc {
+  color: #4e60ff;
+}
+
+.section_wrapper .login_section .login_area .login {
+  padding-top: 100px;
+  padding-bottom: 15px;
+  font-family: Nunito;
+  letter-spacing: 0.1px;
+
+  color: #2b2b43;
+
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 82px;
+}
+
+.keep {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: #2b2b43;
+}
+
+.section_wrapper .login_section .login_area .sign_area {
+  width: 350px;
+  height: 44px;
+
+  letter-spacing: 0.1px;
+
+  color: #2b2b43;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  font-family: Nunito;
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin-top: 30px;
+}
+
+.section_wrapper .login_section .login_area .email_area {
+  margin-bottom: 8%;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.section_wrapper .login_section .login_area .email_area input,
+.section_wrapper .login_section .login_area .password_area input {
+  width: 350px;
+  padding: 10px;
+
+  border-radius: 8px;
+}
+
+.section_wrapper .login_section .login_area,
+.password_area {
+  padding-bottom: 32px;
+}
+
+.section_wrapper .login_section .password_area {
+  position: relative;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.section_wrapper .login_section .password_area i {
+  position: absolute;
+  top: 29px;
+  right: 15px;
+
+  cursor: pointer;
+
+  color: #c7c8d2;
+}
+
+.section_wrapper .login_section .login_area .email-area {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.section_wrapper .login_section .checkbox {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 4px;
+}
+
+.btn_area p {
+  font-family: Nunito;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.section_wrapper .login_section .btn_area {
+  padding-top: 32px;
+}
+
+.section_wrapper .login_section .btn_area button {
+  width: 350px;
+  height: 44px;
+
+  letter-spacing: 0.3px;
+
+  color: white;
+  border-radius: 8px;
+  background-color: #4e60ff;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.section_wrapper .login_area .forgot {
+  width: 350px;
+  height: 44px;
+  padding-top: 32px;
+
+  text-align: center;
+
+  color: #4e60ff;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 136px;
+}
+
+.section_wrapper .login_area .sign_up {
+  width: 350px;
+  height: 44px;
+  padding-top: 32px;
+  font-family: Nunito;
+  text-align: center;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-left: 22%;
+  display: flex;
+}
+
+.section_wrapper .login_area .sign_up b {
+  color: #4e60ff;
+}
+
+.section_wrapper .login_area .sign_up .first {
+  margin-right: 10px;
+}
+
+.section_wrapper .cards_area {
+  background-color: #697bff;
+  font-family: Nunito;
+}
+
+.cards_area .first_cards {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 48px;
+}
+
+.cards_area .first_cards .overal_area {
+  width: 313px;
+  height: 456px;
+
+  border: 2px solid grey;
+  border-radius: 14px;
+  background-color: white;
+}
+
+.cards_area .overal_area .raiting_area {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 15px;
+  margin-bottom: 30px;
+  padding-right: 3px;
+  padding-left: 10px;
+
+  border-bottom: 1px solid #bbb;
+}
+
+.cards_area .overal_area .raiting_area .title {
+  letter-spacing: 0.1 px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cards_area .overal_area .raiting_area .desc {
+  letter-spacing: 0.1 px;
+
+  color: #4e60ff;
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.star_area {
+  display: flex;
+  align-items: center;
+}
+
+.star_area p.desc {
+  margin-right: 3px;
+}
+
+.star_area span {
+  padding-top: 3px;
+}
+
+.star_area span .desc2 {
+  padding-left: 7px;
+
+  color: grey;
+
+  font-size: 10px;
+}
+
+.star_area .checked {
+  color: #4e60ff;
+}
+
+.star_area .unchecked {
+  color: gray;
+}
+
+.overal_area .leave_area span {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+  color: #4e60ff;
+  border: 2px solid #4e60ff;
+  border-radius: 14px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.overal_area .sort_area {
+  margin-left: 62px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 14px;
+
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.overal_area .sort_area b {
+  color: black;
+}
+
+.overal_area .leave_area {
+  margin-top: 12px;
+}
+
+.overal_area .people_area {
+  display: flex;
+
+  padding-top: 20px;
+}
+
+.overal_area .people_area .checked {
+  color: #4e60ff;
+}
+
+.overal_area .people_area .about_area {
+  padding-left: 10px;
+}
+
+.overal_area .people_area .about_area span .checked {
+  color: #4e60ff;
+}
+
+.overal_area .people_area .about_area .title {
+  padding-bottom: 10px;
+}
+
+.overal_area .people_area .about_area .desc {
+  padding-top: 10px;
+}
+
+.overal_area .people_area2 {
+  display: flex;
+}
+
+.overal_area .people_area2 .checked {
+  color: #4e60ff;
+}
+
+.overal_area .people_area2 .unchecked {
+  color: gray;
+}
+
+.overal_area .people_area2 .about_area {
+  padding-left: 10px;
+}
+
+.overal_area .people_area2 .about_area span .checked {
+  color: #4e60ff;
+}
+
+.overal_area .people_area2 .about_area .title {
+  padding-bottom: 10px;
+}
+
+.overal_area .people_area2 .about_area .desc {
+  padding-top: 10px;
+}
+
+.cards_area .first_cards .rol_area {
+  width: 310px;
+  height: 303px;
+  margin-top: 50px;
+
+  border: 2px solid grey;
+  border-radius: 14px;
+  background-color: white;
+}
+
+.cards_area .first_cards .rol_area img {
+  width: 94%;
+  margin-top: 8px;
+  margin-left: 10px;
+
+  border: 2px solid grey;
+  border-radius: 14px;
+}
+
+.cards_area .first_cards .rol_area .container .title {
+  letter-spacing: 0.1 px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cards_area .first_cards .rol_area .container .desc {
+  height: 31px;
+
+  letter-spacing: 0.2 px;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.cards_area .first_cards .rol_area .container .price_area {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.cards_area .first_cards .rol_area .container .price_area .txt {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-top: 3px;
+
+  text-align: center;
+
+  color: #4e60ff;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+.cards_area .first_cards .rol_area .container .price {
+  margin-top: 15px;
+  padding-left: 6px;
+
+  letter-spacing: 0.1 px;
+
+  font-size: 24px;
+  font-weight: 1000;
+  line-height: 32px;
+}
+
+.cards_area .first_cards .rol_area .container .title_wrapper {
+  width: 100%;
+  margin-top: -26px;
+  padding-left: 6px;
+}
+
+.cards_area .nigiri_area {
+  position: relative;
+
+  display: flex;
+
+  width: 650px;
+  height: 132px;
+  margin-top: -60px;
+  margin-left: 77px;
+  margin-bottom: 100px;
+
+  border: 2px solid grey;
+  border-radius: 14px;
+  background-color: white;
+}
+
+.cards_area .nigiri_area .price {
+  margin-top: 15px;
+  padding-left: 6px;
+
+  letter-spacing: 0.1 px;
+
+  font-size: 24px;
+  font-weight: 1000;
+  line-height: 32px;
+}
+
+.cards_area .nigiri_area .image_area img {
+  margin-top: 9px;
+  margin-left: 12px;
+
+  border: 1px solid grey;
+  border-radius: 14px;
+}
+
+.cards_area .nigiri_area .nigiri_wrapper {
+  display: flex;
+}
+
+.cards_area .nigiri_area .nigiri_wrapper .set_area {
+  margin-top: 20px;
+
+  letter-spacing: 0.1 px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cards_area .nigiri_area .nigiri_wrapper .set_area p {
+  margin-left: 17px;
+}
+
+.cards_area .nigiri_area .nigiri_wrapper .set_area .title {
+  letter-spacing: 0.1 px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.cards_area .nigiri_area .nigiri_wrapper .set_area .desc {
+  height: 31px;
+
+  letter-spacing: 0.2 px;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.cards_area .nigiri_area .nigiri_wrapper .set_area .title2 {
+  margin-top: 15px;
+  padding-left: 6px;
+
+  letter-spacing: 0.1 px;
+
+  font-size: 24px;
+  font-weight: 1000;
+  line-height: 32px;
+}
+
+.cards_area .nigiri_area .set_wrapper {
+  display: flex;
+
+  width: 70%;
+}
+
+.cards_area .nigiri_area .set_wrapper .span_area {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 20px;
+}
+
+.cards_area .nigiri_area .set_wrapper .card_buttons_area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.set_wrapper .add_to_card_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 112px;
+  height: 37px;
+  padding: 7px;
+
+  border-radius: 6.7px;
+  background: #8c95e5;
+}
+
+.cards_area .nigiri_area .set_wrapper .span_area .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  color: #4e60ff;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+.span_area span {
+  padding: 6%;
+
+  text-align: justify;
+
+  color: #4e60ff;
+  border-radius: 50%;
+  background-color: #bbb;
+}
+
+.cards_area .first_p {
+  margin-top: 10px;
+
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: white;
+
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.cards_area .second_p {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 22px;
+
+  text-align: center;
+
+  color: white;
+}
+
+.cards_area .circle_area {
+  padding-top: 38px;
+
+  text-align: center;
+}
+
+.cards_area .circle_area .dot {
+  display: inline-block;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+  background-color: white;
+}
+
+.cards_area .circle_area .left {
+  margin-right: 4px;
+}
+
+.cards_area .circle_area .color_span {
+  background: #c7c8d2;
+}
+
+.form {
+  color: red;
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Royal Sushi House",
+    "path": "images/royal sushi.png",
+    "deliveryTime": "30-40 min",
+    "price": "$32 min sum",
+    "featured": true,
+    "count": 0,
+    "category": [
+      {
+        "id": 4,
+        "name": "Sushi",
+        "path": "images/sushi piece.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Burgers & Pizza",
+    "path": "images/burger and pizza.png",
+    "deliveryTime": "40-60 min",
+    "price": "$24 min sum",
+    "featured": true,
+    "count": 0,
+    "category": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "path": "images/pizza piece.png"
+      },
+      {
+        "id": 2,
+        "name": "Burger",
+        "path": "images/burger piece.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ninja sushi",
+    "path": "images/nindia sushi.png",
+    "deliveryTime": "20-40 min",
+    "price": "$40 min sum",
+    "featured": false,
+    "count": 0,
+    "category": [
+      {
+        "id": 4,
+        "name": "Sushi",
+        "path": "images/sushi piece.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Burgers & Pizza 2",
+    "path": "images/burger and pizza.png",
+    "deliveryTime": "40-60 min",
+    "price": "$24 min sum",
+    "featured": false,
+    "count": 0,
+    "category": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "path": "images/pizza piece.png"
+      },
+      {
+        "id": 2,
+        "name": "Burger",
+        "path": "images/burger piece.png"
+      },
+      {
+        "id": 5,
+        "name": "Vegan",
+        "path": "images/broccoli piece.png"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Ninja sushi 2",
+    "path": "images/nindia sushi.png",
+    "deliveryTime": "20-40 min",
+    "price": "$40 min sum",
+    "featured": false,
+    "count": 0,
+    "category": [
+      {
+        "id": 4,
+        "name": "Sushi",
+        "path": "images/sushi piece.png"
+      },
+      {
+        "id": 3,
+        "name": "BBQ",
+        "path": "images/meat piece.png"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Royal Sushi House 2",
+    "path": "images/royal sushi.png",
+    "deliveryTime": "30-40 min",
+    "price": "$32 min sum",
+    "featured": false,
+    "count": 0,
+    "category": [
+      {
+        "id": 4,
+        "name": "Sushi",
+        "path": "images/sushi piece.png"
+      },
+      {
+        "id": 6,
+        "name": "Desserts",
+        "path": "images/cake piece.png"
+      }
+    ]
+  }
+]
